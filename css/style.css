@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}  
+.container{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+/* NAV */
+.logo img {
+  max-width: 100%;
+  height: auto;
+}
+#icon{
+  width:40px;
+  height:40px;
+  background-image: url(../assets/footwear1.png);
+}
+.container-header {
+  padding: 10px;
+  margin: 0 auto;
+  background-color: #ffff;
+  }
+  
+.logo{
+  display: flex;
+  margin: 0px auto;
+  margin-left:-10px;
+  align-items: center;
+}
+.logo h1{
+  margin-left: 5px;
+  font-weight: 600 !important;
+  font-size: 35px;
+}
+
+.main-nav{
+  display:inline-block;
+}
+.main-header .container-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: relative;
+}
+.main-nav ul {
+  text-align: center;
+}
+.main-nav li {
+  display: inline;
+}
+.main-nav a {
+  display: inline-block;
+  padding: .5em 1.5em;
+}
+.main-nav-list .nav-link{
+  font-weight: 600 !important;
+}
+
+  .nav-link:hover::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid#FF0073;
+    padding-bottom: 22px; /* daerah navbar yg gerak */
+    margin-bottom: -25px;
+  }
+
+ul li a{
+  display: block;
+  margin: 10px;
+  text-decoration: none;
+  color: #707070;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  }
+
+
+/* MAIN  */
+.main{
+    background: linear-gradient(270deg, rgba(252,231,246,1) 15%, rgba(227,234,248,1) 96%);
+    height: 670px;
+    border-radius: 50px 50px 0px 0px;
+}
+.main h1{
+    text-align: left;
+    font: normal normal 300 65px/110px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.img{
+    width: 400px;
+    position: absolute;
+    top: 15%;
+    right: 20%;
+}
+.img img{
+    width: 90%;
+    height: auto;
+}
+.container-main{
+  padding-top: 80px;
+  width: 100%;
+  height: 80%;
+  position: fixed;
+}
+.container-main .judul1{
+  color: black;
+  margin-top: 50px;
+  font-weight: 200;
+  line-height: 80px;
+  font-size: 55px;
+  width: 500px;
+}
+.container-main .judul1 span{
+  font-weight: bold;
+}
+.container-main p{
+  line-height: 35px;
+  font-size: 20px;
+  font-weight: 400;
+}
+ .bulat{
+  top: 200px;
+  position: absolute;
+}
+ .bulat img .bg1{
+  top: 300px;
+  left: -500px;
+  width: 275px;
+  height: 270px;
+  z-index: -1;
+}
+ .bulat .bg2{
+  top: 937px;
+  left: -1000px;
+  width: 75px;
+  height: 70px;
+  z-index: -2;
+}
+button{
+  font-size: 20px;
+  background: white;
+  color: #FF0073;
+  border: white 3px solid;
+  border-radius: 50px;
+  padding: 12px 50px;
+  margin-top: 10px;
+  box-shadow: 7px 12px 20px #0000000D;
+}
+button img{
+  width: 16px;
+  height: 20px;
+  margin-bottom: -3.5px;
+  margin-left: 10px;
+  border: 2px solid white;
+}
+
+/* SLIDER */
+/* #right{
+  width: 50%;
+  height: 100vh;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#right #slider{
+  margin: 0 auto;
+  width: 800px;
+  max-width: 100%;
+  text-align: center;
+} */
